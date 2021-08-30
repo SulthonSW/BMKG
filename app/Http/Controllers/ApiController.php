@@ -15,6 +15,7 @@ class ApiController extends Controller
         $input->curah_hujan = $request->curah_hujan;
         $input->tekanan_udara = $request->tekanan_udara;
         $input->kelembaban = $request->kelembaban;
+        $input->kecepatan_angin = $request->kecepatan_angin;
         $input->save();
     }
 
